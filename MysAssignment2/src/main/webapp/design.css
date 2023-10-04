@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+    
+}
+
+nav{
+    font-size: 150%;
+    float: center;
+    top: 30px; 
+    background-color: lightblue;   
+    overflow: hidden;
+}
+
+nav ul li {
+    padding: 5px 10px 5px 10px;
+    display: inline;
+    list-style-type: none;   
+    background-color: lightblue; 
+}
+.login-button{
+	 background-color: yellowgreen; 
+    color: aliceblue; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    background-color: lightblue;
+    
+}
+
+nav a:hover{
+    color:black;
+    background-color: lightblue;
+} 
